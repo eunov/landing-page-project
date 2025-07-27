@@ -4,7 +4,7 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    font-family: 'Helvetica';
+    font-family: 'Roboto';
     flex: 1;
 }
 
@@ -22,7 +22,7 @@ body {
 
 .logo {
     padding: 0 16px;
-    font-weight: 700;
+    font-weight: 800;
     flex-shrink: 0;
 
 
@@ -37,7 +37,7 @@ body {
 
 }
 
-.block-one {
+.hero {
     display: flex;
     flex: 1;
     padding: 32px;
@@ -92,3 +92,55 @@ body {
     border: none;
     /* margin-top: 8px; */
 }
+
+.information {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+
+}
+
+#information-header {
+    font-size: 36px;
+    color: #1F2037;
+    font-weight: 900;
+}
+
+.boxes {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    margin-top: 24px;
+    
+
+    /* gap: 32px; */
+
+}
+
+.hotdogs {
+    border: 5px solid;
+    border-radius: 25px;
+    color: #3882F6;
+
+}
+
+.box-text {
+
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 16px;
+    margin-bottom: 32px;
+
+
+}
+
+.text {
+    max-width: 200px;
+}
+
