@@ -25,6 +25,7 @@ body {
     font-weight: 700;
     flex-shrink: 0;
 
+
 }
 
 .right-links ul {
@@ -36,14 +37,58 @@ body {
 
 }
 
-.section-one {
+.block-one {
     display: flex;
     flex: 1;
-    margin: 0;
+    padding: 32px;
+    justify-content: center;
+    align-items: center;
+    background-color:#1f2937;
+    color: white;
 
 }
 
-.container-one {
+.left-container {
     display: flex;
     flex-direction: column;
+    margin: 48px;
+    
+}
+
+#awesome-website {
+    margin-bottom: 8px;
+}
+
+#subparagraph {
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.right-container {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+    flex: 1;
+
+
+}
+
+#chicago-picture {
+    max-width: 400px;
+    border-radius: 10px;
+
+}
+
+#sign-up-button {
+    max-width: 100px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    /* margin-top: 8px; */
 }
